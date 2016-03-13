@@ -1,0 +1,8 @@
+{ 
+	"eventbrite": {
+		"key": "MOZZPOPO4O3LVWHT4E", 
+		"secret": "W2VGDCMZFO4SCXYCVMN5VVRVP5C6EKRP4ZLMAT4AKTTGDLGJ4P", 
+		"callback": "/auth"
+
+	}
+}
