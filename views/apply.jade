@@ -1,96 +1,100 @@
 extend layout
 block content
-  form(name="application", method="post")
-    key Name
-      input(type="text", name="name")
-    key Email
-      input(type="text", name="email")
-    key Business Name
-      input(type="text", name="business")
-    key Business Address
-      input(type="text", name="business_address")
-    key City
-      input(type="text", name="city")
-    key State
-      input(type="text", name="state")
-    key Zip Code
-      input(type="text", name="zipcode")
-    p Sector
-    key Business Description
-      input(type="text", name="business_desc")
-    key Stage
-      input(type="text", name="stage")
-    key Website
-      input(type="text", name="websiteurl")
-    key Facebook
-      input(type="text", name="facebook")
-    key Twitter
-      input(type="text", name="twitter")
-    key Other Social Media
-      input(type="text", name="social")
-    p Founders
-    key Founder Name
-      input(type="text", name="founder_name")
-    key Title
-      input(type="text", name="title")
-    key Role
-      input(type="text", name="role")
-    key Prior Position
-      input(type="text", name="prior_position")
-    key Eduction
-      input(type="text", name="education")
-    key Other Social Media
-      input(type="text", name="social")
-    key Co-Founder Name
-      input(type="text", name="cofounder_name")
-    key Title
-      input(type="text", name="title")
-    key Role
-      input(type="text", name="role")
-    key Prior Position
-      input(type="text", name="prior_position")
-    key Eduction
-      input(type="text", name="education")
-    key Other Social Media
-      input(type="text", name="social")
-    p Product or Service
-      key Tell us about your product or service.
-        textarea(type="text", name="product_tellus")
-      key Product/Service Description
-        textarea(type="text", name="product_desc")
-      key Stage of Business (roll-out, alpha/beta, launch, funding)
-        textarea(type="text", name="product_stage")
-      key Online Demo URL
-        input(type="text", name="product_url")
-      key Business Model
-        textarea(type="text", name="product_business_model")
-    p Market
-      key Description and size of market being addressed.
-        textarea(type="text", name="market_size")
-      key Problem being addressed
-        textarea(type="text", name="market_problem")
-      key Where is your product currently sold or service offered?
-        textarea(type="text", name="market_location")
-      key What is your approximate annual production?
-        textarea(type="text", name="market_annualproduction")
-      key What makes your product or service offering unique?
-        textarea(type="text", name="market_unique")
-      key Tell us why you're passionate about your enterprise.
-        textarea(type="text", name="market_passion")
-    p Your Competition
-      key Names and URLs of Competitors
-        textarea(type="text", name="competition_urls")
-      key Differntiating Facor versus Competitors
-        textarea(type="text", name="competition_different")
-    p Funding
-      key Funds raiseed to date
-        input(type="text", name="funding")
-      key Source of Funding
-        textarea(type="text", name="funding_source")
-      key Start Date
-        input(type="text", name="funding" value="MM/DD/YYYY")
-    p Supporting Documents
-      Please send supporting documents to eric.chen0121@gmail.com
-    div  
-      input(type='submit', value='Submit')  
+  .col-lg-6
+    form(name="application", method="post")
+    .form-group
+      key Name
+        input.form-control(type="text", name="name")
+      key Email
+        input.form-control(type="text", name="email")
+      key Business Name
+        input.form-control(type="text", name="business")
+      key Business Address
+        input.form-control(type="text", name="business_address")
+      key City
+        input.form-control(type="text", name="city")
+      key State
+        input.form-control(type="text", name="state")
+      key Zip Code
+        input.form-control(type="text", name="zipcode")
+      p Sector
+      key Business Description
+        input.form-control(type="text", name="business_desc")
+      key Stage
+        input.form-control(type="text", name="stage")
+      key Website
+        input.form-control(type="text", name="websiteurl")
+      key Facebook
+        input.form-control(type="text", name="facebook")
+      key Twitter
+        input.form-control(type="text", name="twitter")
+      key Other Social Media
+        input.form-control(type="text", name="social")
+      p Founders
+      key Founder Name
+        input.form-control(type="text", name="founder_name")
+      key Title
+        input.form-control(type="text", name="title")
+      key Role
+        input.form-control(type="text", name="role")
+      key Prior Position
+        input.form-control(type="text", name="prior_position")
+      key Eduction
+        input.form-control(type="text", name="education")
+      key Other Social Media
+        input.form-control(type="text", name="social")
+      key Co-Founder Name
+        input.form-control(type="text", name="cofounder_name")
+      key Title
+        input.form-control(type="text", name="title")
+      key Role
+        input.form-control(type="text", name="role")
+      key Prior Position
+        input.form-control(type="text", name="prior_position")
+      key Eduction
+        input.form-control(type="text", name="education")
+      key Other Social Media
+        input.form-control(type="text", name="social")
+      p Product or Service
+        key Tell us about your product or service.
+          textarea.form-control(type="text", name="product_tellus")
+        key Product/Service Description
+          textarea.form-control(type="text", name="product_desc")
+        key Stage of Business (roll-out, alpha/beta, launch, funding)
+          textarea.form-control(type="text", name="product_stage")
+        key Online Demo URL
+          input.form-control(type="text", name="product_url")
+        key Business Model
+          textarea.form-control(type="text", name="product_business_model")
+      p Market
+        key Description and size of market being addressed.
+          textarea.form-control(type="text", name="market_size")
+        key Problem being addressed
+          textarea.form-control(type="text", name="market_problem")
+        key Where is your product currently sold or service offered?
+          textarea.form-control(type="text", name="market_location")
+        key What is your approximate annual production?
+          textarea.form-control(type="text", name="market_annualproduction")
+        key What makes your product or service offering unique?
+          textarea.form-control(type="text", name="market_unique")
+        key Tell us why you're passionate about your enterprise.
+          textarea.form-control(type="text", name="market_passion")
+      p Your Competition
+        key Names and URLs of Competitors
+          textarea.form-control(type="text", name="competition_urls")
+        key Differntiating Facor versus Competitors
+          textarea.form-control(type="text", name="competition_different")
+      p Funding
+        key Funds raiseed to date
+          input.form-control(type="text", name="funding")
+        key Source of Funding
+          textarea.form-control(type="text", name="funding_source")
+        key Start Date
+          input.form-control(type="text", name="funding" value="MM/DD/YYYY")
+      div  
+        input.form-control(type='submit', value='Submit')  
+    form(name="application", method="post" style="width:350px")
+      .form-group
+        key Resume Upload
+        input.form-group(type="file" id="resumeUpload")
 

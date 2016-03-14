@@ -1,0 +1,36 @@
+{
+  "name": "123",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "bootstrap": "^3.3.6",
+    "bootstrap-sass": "^3.3.6",
+    "express": "^4.13.4",
+    "grant-express": "^3.5.5",
+    "gulp": "^3.9.1",
+    "jade": "^1.11.0",
+    "node-sass": "^3.4.2",
+    "oauth2-server": "^2.4.1",
+    "purest": "^2.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericchen0121/emblem.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericchen0121/emblem/issues"
+  },
+  "homepage": "https://github.com/ericchen0121/emblem#readme"
+}
